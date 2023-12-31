@@ -1,0 +1,20 @@
+<div class="card">
+  <div class="card-header">
+    <h2>Login</h2>
+  </div>
+
+<form id="loginForm">
+    <label for="username-login">Username:</label>
+    <input type="text" id="username-login" required>
+
+    <label for="password-login">Password:</label>
+    <input type="password" id="password-login" required>
+
+    <button type="submit">Login</button>
+</form>
+
+{{#if loginError}}
+    <p style="color: red;">{{loginError}}</p>
+{{/if}}
+
+<script src="/js/login.js"></script>

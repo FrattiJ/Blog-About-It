@@ -1,0 +1,20 @@
+<div class="card">
+  <div class="card-header">
+    <h2>Sign Up</h2>
+  </div>
+
+<form id="signupForm">
+    <label for="username-signup">Username:</label>
+    <input type="text" id="username-signup" required>
+
+    <label for="password-signup">Password:</label>
+    <input type="password" id="password-signup" required>
+
+    <button type="submit">Login</button>
+</form>
+
+{{#if signupError}}
+    <p style="color: red;">{{signupError}}</p>
+{{/if}}
+
+<script src="/js/signup.js"></script>
