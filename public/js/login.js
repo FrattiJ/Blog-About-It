@@ -13,7 +13,7 @@ const login = async function(event) {
     });
   
     if (response.ok) {
-      document.location.replace('/dash');
+      document.location.replace('/');
     } else {
       alert('Login failed, please try again.');
     }

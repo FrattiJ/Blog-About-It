@@ -13,7 +13,7 @@ const signup = async function(event) {
     });
   
     if (response.ok) {
-      document.location.replace('/dash');
+      document.location.replace('/');
     } else {
       alert('Signup failed, please try again.');
     }
