@@ -3,7 +3,7 @@ const Post = require('../models/Post');
 const getAllPosts = async () => {
     try {
         const posts = await Post.findAll();
-        console.log('posts:' , posts)
+        console.log('posts:' , )
         return posts;
     } catch (error) {
         console.error('Error fetching posts:', error);

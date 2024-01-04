@@ -7,7 +7,6 @@ const postdata = [
 
 const seedBlog = () => {
     Post.bulkCreate(postdata);
-    console.log('postData:', postdata);
 }
 
 
